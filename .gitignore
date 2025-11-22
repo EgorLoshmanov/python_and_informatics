@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+*.log
+
+# Виртуальные окружения
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Кэш pip
+pip-wheel-metadata/
+pip-log.txt
+
+# Кэш pytest
+.pytest_cache/
+
+# Кэш mypy
+.mypy_cache/
+
+# Кэш других инструментов
+.cache/
+.ipynb_checkpoints/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# Выводы обработки данных
+*.csv
+*.tsv
+*.out
+*.log
+*.tmp
+
+# Jupyter runtime
+.jupyter/
+.local/share/jupyter/
+
+# --- IDE / редакторы ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
